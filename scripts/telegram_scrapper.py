@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 # Load environment variables once
 load_dotenv('.env')
-api_id = os.getenv('TG_API_ID')
-api_hash = os.getenv('TG_API_HASH')
+api_id = os.getenv('api_id')
+api_hash = os.getenv('api_hash')
 phone = os.getenv('phone')
 
 # Function to scrape data from a single channel
@@ -42,8 +42,7 @@ async def main():
         
         # List of channels to scrape
         channels = [
-            '@Shageronlinestore',  # Existing channel
-                 # You can add more channels here
+            '@Bonda2'
             
         ]
         
