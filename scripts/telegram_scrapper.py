@@ -3,6 +3,7 @@ import csv
 import os
 from dotenv import load_dotenv
 
+
 # Load environment variables once
 load_dotenv('.env')
 api_id = os.getenv('api_id')
