@@ -12,5 +12,5 @@ This project is dedicated to refining a large language model (LLM) for Amharic N
 
 - Real-time data extraction from Telegram channels
 
-- Fine-tuning LLM to extract entities like product names, prices, 
-and locations
+- Fine-tuning LLM to extract entities like product names, prices,
+  and locations
